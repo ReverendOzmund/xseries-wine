@@ -71,3 +71,9 @@ The goal for each title is the line `*** MILESTONE: D3D12XboxCreateDevice reache
 ## License
 
 MIT
+
+## Keywords
+
+Xbox Series X emulator, Xbox Series S emulator, Xbox Scarlett emulation, Xbox GDK compatibility layer,
+run Xbox games on PC, run Xbox games on Linux, Xbox on Steam Deck, Xbox Proton, Xbox Wine,
+D3D12.X, d3d12_xs, xgameruntime, GameCore, console translation layer, game preservation
