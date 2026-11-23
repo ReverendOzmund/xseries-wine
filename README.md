@@ -248,6 +248,10 @@ GTA 6 PC · GTA VI PC · GTA 6 Linux · GTA 6 Steam Deck · GTA 6 Proton
 
 ---
 
+## AI disclosure
+
+The initial harness and documentation were written with AI assistance (Claude). All changes are reviewed and tested by the maintainer.
+
 ## License
 
 [MIT](LICENSE). Covers this project's code only. All game and platform trademarks belong to their owners;
