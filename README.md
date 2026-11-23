@@ -77,3 +77,12 @@ MIT
 Xbox Series X emulator, Xbox Series S emulator, Xbox Scarlett emulation, Xbox GDK compatibility layer,
 run Xbox games on PC, run Xbox games on Linux, Xbox on Steam Deck, Xbox Proton, Xbox Wine,
 D3D12.X, d3d12_xs, xgameruntime, GameCore, console translation layer, game preservation
+
+### Compatibility testing targets
+
+| Title | Status |
+|---|---|
+| Grand Theft Auto VI (Xbox Series X|S build) | Testing in progress: not playable, boot progress only |
+
+GTA 6 PC, GTA VI PC, GTA 6 Linux, GTA 6 Steam Deck, GTA 6 Proton, GTA VI Xbox Series emulation.
+This project does **not** provide the game. You need your own legally obtained copy.
