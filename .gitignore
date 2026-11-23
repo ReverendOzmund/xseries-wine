@@ -1,0 +1,7 @@
+# never commit game files or build output
+*.exe
+*.dll
+*.pdb
+*.log
+gen/
+__pycache__/
