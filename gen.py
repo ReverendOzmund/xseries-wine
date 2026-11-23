@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""scarlett-shim generator: reads an Xbox Series (Scarlett) GDK exe's import table
+"""xseries-wine generator: reads an Xbox Series (Scarlett) GDK exe's import table
 and generates logging stub DLLs for every console-only DLL it needs.
 
 usage: python3 gen.py <game.exe> gen      (outdir must sit inside the repo root)

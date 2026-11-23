@@ -1,4 +1,4 @@
-# scarlett-shim
+# xseries-wine
 
 **An experimental research harness for running Xbox Series X|S (codename "Scarlett") GDK executables on PC and Linux through Wine/Proton.**
 
@@ -38,7 +38,7 @@ exist on console firmware:
 | `libHttpClient.GDK.dll` | Networking |
 | `xgameruntime.dll` | The GDK runtime: users, saves, store, system info (loaded at runtime, not imported) |
 
-Wine and Proton have none of these, so the game won't even start. scarlett-shim:
+Wine and Proton have none of these, so the game won't even start. xseries-wine:
 
 1. Reads your exe's import table (`gen.py`).
 2. Generates a stand-in DLL for every console-only import it finds.
@@ -118,8 +118,8 @@ Tested another Scarlett title? Open an issue with your log (see [Reporting a tes
 ### Build
 
 ```sh
-git clone https://github.com/ReverendOzmund/scarlett-shim.git
-cd scarlett-shim
+git clone https://github.com/ReverendOzmund/xseries-wine.git
+cd xseries-wine
 pip install pefile
 python3 gen.py /path/to/game.exe gen
 ./gen/build.sh
