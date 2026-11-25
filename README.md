@@ -155,6 +155,13 @@ cd /path/to/game
 WINEDEBUG=+loaddll,+seh wine game.exe 2> wine.log
 ```
 
+### Going further with TuxBox
+
+The stubs here only show how far an executable boots. [TuxBox](https://github.com/brcly/TuxBox)
+implements the console services and translates shaders. For setting it up on Bazzite, a log
+summariser and a WineDbg hang-snapshot script, see [docs/bazzite-tuxbox.md](docs/bazzite-tuxbox.md)
+and [`tools/`](tools).
+
 ### Reading the log
 
 | You see | Meaning |
