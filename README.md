@@ -98,7 +98,7 @@ machine code, not portable DirectX bytecode, so they need a shader recompiler li
 
 | Title | Platform build | Status | Notes |
 |---|---|---|---|
-| Grand Theft Auto VI | Xbox Series X/S | ⬜ Untested | First test target; awaiting boot logs |
+| *No titles reported yet* | | | |
 
 Status key: ⬜ untested · 🔴 crashes before stubs · 🟠 boots to runtime init · 🟡 reaches GPU init · 🟢 renders · ✅ playable
 
@@ -211,7 +211,7 @@ Don't attach game files, full memory dumps, or anything containing game code.
 
 ## FAQ
 
-**Can I play GTA 6 on PC with this?**
+**Can I play Xbox Series games on PC with this?**
 No. It doesn't render anything yet, and there is no estimate for when, or whether, it will.
 
 **Where do I get the game files?**
@@ -236,6 +236,7 @@ Those use a different SDK (XDK/Durango). Look at WinDurango or XWine1 instead.
 - **XWine1**: Xbox One compatibility layer (private)
 - **[shadPS4](https://github.com/shadps4-emu/shadPS4)**: PS4 emulator; reference for GPU shader recompilation
 - **[vkd3d-proton](https://github.com/HansKristian-Work/vkd3d-proton)**: D3D12 → Vulkan, the likely graphics backend
+- **[TuxBox](https://github.com/brcly/TuxBox)**: a much further-along Linux-first Scarlett compatibility layer with a working RDNA2 shader translator; if you want to contribute to the furthest open effort, start there
 
 ---
 
@@ -243,8 +244,7 @@ Those use a different SDK (XDK/Durango). Look at WinDurango or XWine1 instead.
 
 Xbox Series X emulator · Xbox Series S emulator · Xbox Scarlett emulation · Xbox GDK compatibility layer ·
 run Xbox games on PC · run Xbox games on Linux · Xbox on Steam Deck · Xbox Proton · Xbox Wine ·
-D3D12.X · d3d12_xs · xgameruntime · GameCore · console preservation ·
-GTA 6 PC · GTA VI PC · GTA 6 Linux · GTA 6 Steam Deck · GTA 6 Proton
+D3D12.X · d3d12_xs · xgameruntime · GameCore · console preservation
 
 ---
 
@@ -255,4 +255,4 @@ The initial harness and documentation were written with AI assistance (Claude). 
 ## License
 
 [MIT](LICENSE). Covers this project's code only. All game and platform trademarks belong to their owners;
-this project is not affiliated with Microsoft, Rockstar Games, or Take-Two Interactive.
+this project is not affiliated with Microsoft or any game publisher.
