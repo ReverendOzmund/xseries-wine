@@ -161,6 +161,18 @@ python tuxbox.py verify --prefix ~/.local/share/project-tuxbox/prefixes/verify-s
 - **Use a worktree per pull request** (`git worktree add ~/tuxbox-pr upstream/main`),
   so your main checkout can keep running a title while you work on a branch.
 
+### Tools
+
+- `tools/run-summary.sh LOG`: how a run ended, what was drawn, what the
+  translator and the driver refused, and where work was dropped.
+  [Reading a TuxBox log](reading-tuxbox-logs.md) explains each line.
+- `tools/cache-check.sh`: cache sizes per prefix, and NVIDIA cache files too
+  big to stay indexed.
+- `tools/dmpinfo.py FILE.dmp`: the exception record of a minidump and the
+  module it hit, without memory contents.
+- `tools/dxc-bench.py LOG`: compiles the slowest compute shaders of a run with
+  DXC's optimiser off and on, and prints only timings and sizes.
+
 ### Reporting
 
 Share TuxBox's log lines and summaries, never the game's files, executables or
